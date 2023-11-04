@@ -19,7 +19,7 @@ void main() {
   runApp(MaterialApp(
     theme: _buildTheme(Brightness.dark),
 
-    home: SignIn(),
+    home: Products(),
   ));
 }
 ThemeData _buildTheme(brightness) {
